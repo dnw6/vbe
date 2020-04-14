@@ -5,7 +5,7 @@
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #17050F;
-  --blue: #082840;
+  --blue: #284670;
   --white: #fff;
   --yellow: #fae596;
   --lightblue: #98acc6;
@@ -41,9 +41,9 @@ li {
 a[href] {
   color: var(--blue);
 }
-a[href]:visited {
+/* a[href]:visited {
   color: var(--navy);
-}
+} */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cairo', sans-serif;
   font-weight: bold;
