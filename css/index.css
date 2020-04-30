@@ -240,9 +240,10 @@ a[href].tag:visited {
 .announcement {
   background-color: var(--mint);
   padding: 1em 0.625em; /* 16px 10px /16 */
-  padding: 3em 4em;
+  padding: 6em 6em;
   max-width: 60ch;
-  border-radius: 8em;
+  /* border-radius: 8em; */
+  border-radius: 41% 59% 68% 32% / 30% 42% 58% 70%;
   margin: 0 0 2em 0;
 
 }
