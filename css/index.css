@@ -156,11 +156,32 @@ pre {
 .home {
   padding: 0 1rem;
   float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  margin: 1.5rem 1rem;
+  font-size: 1.4em;
+  transition: 200ms filter ease-in-out;
 }
 .home :link:not(:hover) {
   text-decoration: none;
+}
+
+.home :link:hover {
+  text-decoration: none;
+}
+
+.home:hover {
+  filter: blur(3px);
+}
+
+.home .blur-lg {
+filter: blur(2px);
+}
+
+.home .blur-md {
+filter: blur(1px);
+}
+
+.home .blur-sm {
+filter: blur(.5px);
 }
 
 /* Nav */
@@ -168,7 +189,7 @@ pre {
   padding: 0;
   list-style: none;
   float: left;
-  margin-left: 1em;
+  margin: 1.5rem 1rem;
 }
 .nav-item {
   display: inline-block;
@@ -242,10 +263,14 @@ a[href].tag:visited {
   padding: 1em 0.625em; /* 16px 10px /16 */
   padding: 6em 6em;
   max-width: 60ch;
-  /* border-radius: 8em; */
+  width: 100%;
   border-radius: 41% 59% 68% 32% / 30% 42% 58% 70%;
-  margin: 0 0 2em 0;
+  margin: 0 0 2em -2em;
+  transition: 250ms border-radius ease-in-out;
+}
 
+.announcement:hover {
+  border-radius: 45% 55% 62% 38% / 26% 51% 49% 74%;
 }
 
 .announcement ul li {
@@ -317,10 +342,27 @@ a[href].direct-link:focus:visited,
 .two-up {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-items: flex-start;
+}
+
+.two-up .announcement, .two-up .content {
+  flex-basis: 48vw;
 }
 
 .two-up .content {
   margin-left: 2em;
+}
+
+@media (max-width: 768px) {
+  .two-up {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+  }
+
+  .two-up .content {
+    margin-left: 0;
+  }
+
 }

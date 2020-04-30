@@ -20,3 +20,5 @@ An earlier incarnation was based on based on the [Hylia starter theme](https://h
 
 The site is hosted on [Netlify](https://www.netlify.com/). Setting this up was mind-bogglingly easy. Just clicked a button, connected with my Github account, waited for 20 seconds, and there it was, an actual site at a temporary url. Felt almost magical.
 
+In the past I'd built a lot of prototypes using Jekyll, and liquid templating, so it's been a pleasure to see that some of that knowledge has been so easily transferable to building with Eleventy and nunjucks, in terms of templating, but also the odd loop and if statement.
+
