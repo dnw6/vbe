@@ -9,18 +9,23 @@
   --white: #fff;
   --yellow: #fae596;
   --lightblue: #98acc6;
+  --pinky: #f7797d;
+  --custard: #FBD786;
+  --mint: #C6FFDD;
+  --duskyblue: #565666;
+  --nicegrey: #4e4e4e;
 }
 * {
   box-sizing: border-box;
-  outline: 1px dashed var(--yellow);
+  /* outline: 1px dashed var(--yellow); */
 }
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--nicegrey);
+  background-color: var(--pinky);
   font-size: 18px;
   line-height: 1.45;
 }
@@ -39,7 +44,7 @@ li {
   margin-bottom: .8rem;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--duskyblue);
 }
 /* a[href]:visited {
   color: var(--navy);
@@ -218,7 +223,7 @@ pre {
   font-size: 0.625em; /* 10px /16 */
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--lightblue);
+  background-color: var(--duskyblue);
   color: var(--white);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
@@ -230,9 +235,12 @@ a[href].tag:visited {
 
 /* Warning */
 .announcement {
-  background-color: var(--lightgray);
+  background-color: var(--mint);
   padding: 1em 0.625em; /* 16px 10px /16 */
+  padding: 3em 4em;
   max-width: 60ch;
+  border-radius: 8em;
+
 }
 
 .announcement ul li {
@@ -262,4 +270,52 @@ a[href].direct-link:focus:visited,
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+}
+
+.container {
+  position: relative;
+  background: var(--custard);
+  height: 17vh;
+  margin-bottom: 6em;
+}
+
+.wave {
+  position: absolute;
+  height: 109px;
+  width: 100%;
+  background: var(--custard);
+  bottom: 0;
+}
+
+.wave::before, .wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: var(--pinky);
+  right: -1.5%;
+  top: 60%;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: var(--custard);
+  left: -1.5%;
+  top: 40%;
+}
+
+.two-up {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: flex-start;
+}
+
+.two-up .content {
+  margin-left: 2em;
 }
