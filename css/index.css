@@ -243,6 +243,7 @@ a[href].tag:visited {
   padding: 3em 4em;
   max-width: 60ch;
   border-radius: 8em;
+  margin: 0 0 2em 0;
 
 }
 
@@ -278,7 +279,7 @@ a[href].direct-link:focus:visited,
 .container {
   position: relative;
   background: var(--custard);
-  height: 17vh;
+  height: 12em;
   margin-bottom: 6em;
 }
 
