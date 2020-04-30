@@ -23,11 +23,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: var(--nicegrey);
   background-color: var(--pinky);
   font-size: 18px;
   line-height: 1.45;
+  font-weight: 400;
 }
 p {
   margin-bottom: 1.15rem;
@@ -50,8 +51,8 @@ a[href] {
   color: var(--navy);
 } */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cairo', sans-serif;
-  font-weight: bold;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 800;
   line-height: 1.15;
   margin: 2.75rem 0 1.05rem;
 }
