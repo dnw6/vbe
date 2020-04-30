@@ -14,6 +14,7 @@
   --mint: #C6FFDD;
   --duskyblue: #565666;
   --nicegrey: #4e4e4e;
+  --darkergrey: #373737;
 }
 * {
   box-sizing: border-box;
@@ -24,7 +25,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-  color: var(--nicegrey);
+  color: var(--darkergrey);
   background-color: var(--pinky);
   font-size: 18px;
   line-height: 1.45;
@@ -55,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   line-height: 1.15;
   margin: 2.75rem 0 1.05rem;
+  color: var(--nicegrey);
 }
 
 h1 {
