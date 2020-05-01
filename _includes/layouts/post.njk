@@ -5,6 +5,7 @@ templateClass: tmpl-post
 
 <article class="center-col">
 <h1>{{ title }}</h1>
+<p class"datestamp"><em>{{ page.date.toDateString() }}</em></p>
 
 {{ content | safe }}
 

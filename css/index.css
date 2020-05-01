@@ -260,7 +260,6 @@ a[href].tag:visited {
 /* Warning */
 .announcement {
   background-color: var(--mint);
-  padding: 1em 0.625em; /* 16px 10px /16 */
   padding: 6em 6em;
   max-width: 60ch;
   width: 100%;
@@ -271,6 +270,14 @@ a[href].tag:visited {
 
 .announcement:hover {
   border-radius: 45% 55% 62% 38% / 26% 51% 49% 74%;
+}
+
+@media (max-width: 768px) {
+.announcement {
+  padding: 2em;
+  margin: 0 0 2em 0;
+  font-size: .75em;
+}
 }
 
 .announcement ul li {
@@ -305,8 +312,15 @@ a[href].direct-link:focus:visited,
 .container {
   position: relative;
   background: var(--custard);
-  height: 12em;
+  min-height: 10em;
   margin-bottom: 6em;
+}
+
+@media (max-width: 786px) {
+.container {
+  min-height: 14em;
+  margin-bottom: 3em;
+}
 }
 
 .wave {
@@ -350,7 +364,7 @@ a[href].direct-link:focus:visited,
 }
 
 .two-up .content {
-  margin-left: 2em;
+  margin-left: 3em;
 }
 
 @media (max-width: 768px) {
@@ -359,7 +373,12 @@ a[href].direct-link:focus:visited,
     flex-direction: column;
     flex-wrap: wrap;
     justify-items: flex-start;
+    align-content: center;
   }
+
+.two-up .announcement, .two-up .content {
+  flex-basis: 96vw;
+}
 
   .two-up .content {
     margin-left: 0;
