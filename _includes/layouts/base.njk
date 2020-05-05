@@ -29,7 +29,11 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer>
+    
+    <a style="float: right; padding: 1em;" href="{{ metadata.feed.path | url }}">RSS Feed</a>
+    
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
