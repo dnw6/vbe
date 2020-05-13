@@ -5,6 +5,7 @@ date: 2020-04-14
 tags:
   - design
   - software
+  - lists
 layout: layouts/post.njk
 ---
 Oh Adobe XD, sometimes you are quite good, but other times, you drive me up the fecking wall. 
