@@ -46,6 +46,9 @@ img {
 li {
   margin-bottom: .8rem;
 }
+li li {
+  margin-bottom: .4rem;
+}
 a[href] {
   color: var(--duskyblue);
 }
@@ -319,6 +322,8 @@ a[href].direct-link:focus:visited,
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+  background-color: var(--pinky);
+  border-radius: 50px;
 }
 
 .container {
