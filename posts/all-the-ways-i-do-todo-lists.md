@@ -1,7 +1,7 @@
 ---
 title: All the ways I do to-do lists
 description: A list of all teh many ways I keep track of the things I need to do
-date: 2020-06-16
+date: 2020-06-26
 tags:
   - life
   - lists
