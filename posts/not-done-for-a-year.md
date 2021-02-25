@@ -1,6 +1,6 @@
 ---
 title: Things I haven't done for a year
-description: A list of things I haven't done for a year or more, due to covid/lockdowns
+description: A list of things I haven't done for a year or more, due to covid and lockdowns
 date: 2021-02-25
 tags:
   - list

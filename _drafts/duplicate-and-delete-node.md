@@ -1,5 +1,5 @@
 ---
-title: Duplicate/Delete Element how I love thee
+title: Duplicate and Delete Element how I love thee
 description: The awesome usefulness of duplicate and delete element functions in browser dev tools
 date: 2021-02-19
 tags:
