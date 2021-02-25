@@ -26,4 +26,3 @@ A list of things that I haven't done for the last year or so, due to covid/lockd
 * Been on my own for more than, um, 2 hours, I reckon
 
 A year ago, the idea that I might not do any of those things for a year or more would have seemed pretty outlandish. Especially the Greggs one.
-
