@@ -5,7 +5,7 @@ date: 2020-05-13
 tags:
   - life
   - lists
-  - coronavirus
+  - covid
 layout: layouts/post.njk
 ---
 I didn't really have a clear idea of what this blog was going to be when I started it, but I think it might end up being (mostly) a collection of lists.
