@@ -330,7 +330,7 @@ a[href].direct-link:focus:visited,
   position: relative;
   background: var(--custard);
   min-height: 10em;
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 @media (max-width: 786px) {
