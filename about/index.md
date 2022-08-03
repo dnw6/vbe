@@ -12,8 +12,18 @@ eleventyNavigation:
 * In the past I worked at the [Ministry of Justice](https://mojdigital.blog.gov.uk/), and [The National Archives](https://nationalarchives.gov.uk)
 * [This is my twitter account](https://twitter.com/hiccup)
 - - - 
-### Why Vague But Exciting?
 
-They were the words that Tim Berners-Lee's then boss wrote on his proposal for an information management system. A system that turned into the world wide web. I thought that would be a pretty cool name for a website, so here we are.
+### I made three New Year's Resolutions in 2020
 
-You can read more about it on [the CERN website](http://info.cern.ch/Proposal.html).
+* Buy some new glasses (been meaning to do this for nearly a decade)
+* Complete a Couch to 5K running program
+* Start a blog (again)
+
+*Hence this site.* Starting off with a really basic theme, plan is to slowly make it look... less basic. No rush though, is there?
+
+**2021 update**
+* <span class="text_small">Still haven't bought new glasses.</span>
+
+**2022 update**
+* <span class="text_small">Bought new glasses. But the dog chewed them up the other day. So now I need to buy another pair.</span>
+* <span class="text_small">As of August 2022 I have completed 26 of the 27 runs in a Couch to 5k running program, and successfully run over 5k a couple of times.</span>

@@ -24,7 +24,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'roboto-slab', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: 'roboto', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: var(--darkergrey);
   background-color: var(--pinky);
   font-size: 18px;
@@ -43,6 +43,16 @@ p,
 img {
   max-width: 37.5em; /* 600px /16 */
 }
+img.article {
+  border-radius: 12px;
+  box-shadow: 0 0 0 4px var(--duskyblue);
+  margin: 1rem 0;
+  max-width: 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
 li {
   margin-bottom: .8rem;
 }
@@ -58,7 +68,7 @@ a[href]:hover {
   color: var(--nicegrey);
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'roboto', sans-serif;
   font-weight: 800;
   line-height: 1.15;
   margin: 2.75rem 0 1.05rem;
@@ -87,9 +97,7 @@ main {
 main :first-child {
   margin-top: 0;
 }
-header {
-  border-bottom: 1px solid var(--lightgray);
-}
+
 header:after {
   content: "";
   display: table;
@@ -336,8 +344,8 @@ a[href].direct-link:focus:visited,
 .container {
   position: relative;
   background: var(--custard);
-  min-height: 10em;
-  margin-bottom: 4em;
+  /* min-height: 10em;
+  margin-bottom: 4em; */
 }
 
 @media (max-width: 786px) {
@@ -345,36 +353,6 @@ a[href].direct-link:focus:visited,
   min-height: 14em;
   margin-bottom: 3.5em;
 }
-}
-
-.wave {
-  position: absolute;
-  height: 109px;
-  width: 100%;
-  background: var(--custard);
-  bottom: 0;
-}
-
-.wave::before, .wave::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-}
-
-.wave::before {
-  width: 55%;
-  height: 109%;
-  background-color: var(--pinky);
-  right: -1.5%;
-  top: 60%;
-}
-.wave::after {
-  width: 55%;
-  height: 100%;
-  background-color: var(--custard);
-  left: -1.5%;
-  top: 40%;
 }
 
 .two-up {
@@ -413,4 +391,3 @@ a.rss:hover {
   border-radius: 18px 18px 2px 18px;
   color: var(--lightgray);
 }
-
