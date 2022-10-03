@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-family: 'Roboto Serif', serif;
   color: var(--darkergrey);
-  background-color: var(--pinky);
+  background-color: var(--lightgray);
   font-size: 18px;
   line-height: 1.45;
   font-weight: 400;
@@ -61,12 +61,16 @@ li li {
   margin-bottom: .4rem;
 }
 a[href] {
-  color: var(--duskyblue);
-  transition: color 150ms ease;
+  color: var(--nicegrey);
+  transition: all 150ms ease;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--gray);
 }
 a[href]:hover {
-  /* color: var(--darkgray); */
-  color: var(--nicegrey);
+  color: var(--darkergray);
+  text-decoration-style: dotted;
+  text-decoration-color: var(--nicegray);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -211,11 +215,12 @@ filter: blur(.5px);
   margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
-  text-decoration: none;
+  text-decoration-color: transparent;
 }
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+  text-decoration-color: inherit;
 }
 
 /* Posts list */
@@ -255,31 +260,33 @@ filter: blur(.5px);
 
 
 /* Tags */
-.tag {
+a[href].tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
   font-size: 0.625em; /* 10px /16 */
-  padding: 2px 4px;
+  padding: 1px 3px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--duskyblue);
-  color: var(--pinky);
+  background-color: var(--gray);
+  color: var(--darkgray);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
-  transition: color 150ms ease;
+  transition: all 150ms ease;
 }
 a[href].tag,
 a[href].tag:visited {
-  color: var(--pinky);
+  color: var(--darkgray);
+  text-decoration: none;
 }
 
 a[href].tag:hover {
-  color: var(--white);
+  background-color: var(--custard);
 }
 
 /* Warning */
 .announcement {
-  background-color: var(--mint);
+  /* background-color: var(--lightblue); */
+  background: linear-gradient(135deg, #98acc6, #88b8d0, #7ac3d0, #78cdc6, #89d5b4, #a9da9e, #d0da8c, #fbd786);
   padding: 6em 6em;
   max-width: 60ch;
   width: 100%;
@@ -338,7 +345,7 @@ a[href].direct-link:focus:visited,
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  background-color: var(--pinky);
+  /* background-color: var(--pinky); */
   border-radius: 50px;
 }
 
