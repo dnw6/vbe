@@ -24,7 +24,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Roboto Serif', "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif;
   color: var(--darkergrey);
   background-color: var(--lightgray);
   font-size: 18px;
@@ -230,6 +230,7 @@ filter: blur(.5px);
 }
 .postlist-item {
   counter-increment: start-from -1;
+  margin-bottom: 1rem;
 }
 /* .postlist-item:before {
   display: inline-block;
@@ -378,8 +379,14 @@ a[href].direct-link:focus:visited,
 
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 a.rss {
-  float: right;
+  /* float: right; */
   padding: 1em;
   margin: .4em;
   border: var(--darkgray) dashed 2px;
