@@ -1,24 +1,16 @@
 :root {
-  --red: #C5004A;
-  --darkred: #7F0036;
   --lightgray: #efefef;
   --gray: #C0C0C0;
   --darkgray: #333;
-  --navy: #17050F;
-  --blue: #284670;
-  --white: #fff;
-  --yellow: #fae596;
-  --lightblue: #98acc6;
-  --pinky: #f7797d;
-  --custard: #FBD786;
-  --mint: #C6FFDD;
-  --duskyblue: #565666;
   --nicegrey: #4e4e4e;
   --darkergrey: #373737;
+  --white: #fff;
+  --lightblue: #98acc6;
+  --custard: #FBD786;
+  --duskyblue: #565666;
 }
 * {
   box-sizing: border-box;
-  /* outline: 1px dashed var(--yellow); */
 }
 html,
 body {
@@ -287,7 +279,7 @@ a[href].tag:hover {
 /* Warning */
 .announcement {
   /* background-color: var(--lightblue); */
-  background: linear-gradient(135deg, #98acc6, #88b8d0, #7ac3d0, #78cdc6, #89d5b4, #a9da9e, #d0da8c, #fbd786);
+  background: linear-gradient(135deg, var(--lightblue), #88b8d0, #7ac3d0, #78cdc6, #89d5b4, #a9da9e, #d0da8c, var(--custard));
   padding: 6em 6em;
   max-width: 60ch;
   width: 100%;
@@ -317,12 +309,6 @@ a[href].tag:hover {
   margin-bottom: .5rem;
 }
 
-.announcement-inner {
-  background-color: var(--mint);
-  /* background-color: hotpink; */
-  border-radius: 24px;
-  padding: .5em;
-}
 /* Direct Links / Markdown Headers */
 .direct-link {
   font-family: sans-serif;
@@ -346,7 +332,6 @@ a[href].direct-link:focus:visited,
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  /* background-color: var(--pinky); */
   border-radius: 50px;
 }
 
