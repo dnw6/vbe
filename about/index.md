@@ -27,3 +27,9 @@ eleventyNavigation:
 **2022 update**
 * <span class="text_small">Bought new glasses. But the dog chewed them up the other day. So now I need to buy another pair.</span>
 * <span class="text_small">As of August 2022 I have completed 26 of the 27 runs in a Couch to 5k running program, and successfully run over 5k a couple of times.</span>
+
+<ul>
+{%- for post in collections.music -%}
+  <li><a href="{{ post.url }}">{{ post.url }}</a></li>
+{%- endfor -%}
+</ul>

@@ -319,6 +319,7 @@ a[href].tag:hover {
 a[href].direct-link,
 a[href].direct-link:visited {
   color: transparent;
+  text-decoration: none;
 }
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited,
@@ -384,4 +385,32 @@ a.rss {
 a.rss:hover {
   border-radius: 18px 18px 2px 18px;
   color: var(--darkgray);
+}
+
+ul.music-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.music-list li {
+  padding-left: 1.5rem;
+}
+
+ul.music-list li:before {
+  content: "🔈";
+  position: relative;
+  display: inline-block;
+  left: -.2rem;
+  width: 23px;
+  transform: all 250ms ease;
+
+}
+
+ul.music-list li:hover::before {
+  content: "🔊";
+  position: relative;
+  display: inline-block;
+  width: 23px;
+
 }
