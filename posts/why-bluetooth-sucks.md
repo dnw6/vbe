@@ -9,7 +9,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-Yesterday I misplaced my wireless earbuds, which I use a lot during teh day for music and work calls. So I dug out an older pair of wireless, over-the-ear headphones (Sony WH-C500).
+Yesterday I misplaced my wireless earbuds, which I use a lot during the day for music and work calls. So I dug out an older pair of wireless, over-the-ear headphones (Sony WH-C500).
 
 I charged them up, put them on, switched them on, and a friendly voice in my ear told me "Bluetooth connected".
 
