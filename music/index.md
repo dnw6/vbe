@@ -23,6 +23,6 @@ Well, suffice to say we haven't bought a bigger house, and all my music stuff is
 
 <img class="article" alt="Photo of digital dj controller and laptop on a kitchen worktop" src="/img/ddj-400-in-kitchen.jpg" rel="lazy">
 
-The mixes above are ones I've recorded whilst I learn how to use my new toy.
+The mixes above are ones I've recorded whilst I learn how to use my new toy...
 
 
