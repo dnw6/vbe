@@ -8,6 +8,7 @@
   --lightblue: #98acc6;
   --custard: #FBD786;
   --duskyblue: #565666;
+  --darkteal: #1E616E;
 }
 * {
   box-sizing: border-box;
@@ -16,12 +17,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto Serif', "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif", "Times", "Source Serif Pro", serif;
+  font-family: 'Inter', sans-serif;
   color: var(--darkergrey);
   background-color: var(--lightgray);
   font-size: 18px;
-  line-height: 1.45;
-  font-weight: 400;
+  line-height: 1.6;
+  font-weight: 333;
   overflow-x: hidden;
 }
 p {
@@ -53,7 +54,7 @@ li li {
   margin-bottom: .4rem;
 }
 a[href] {
-  color: var(--nicegrey);
+  color: var(--darkteal);
   transition: all 150ms ease;
   text-decoration: underline;
   text-decoration-style: dotted;
@@ -63,6 +64,9 @@ a[href]:hover {
   color: var(--darkergray);
   text-decoration-style: dotted;
   text-decoration-color: var(--nicegray);
+}
+h1 a[href] {
+  color: var(--nicegrey);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
@@ -205,6 +209,10 @@ filter: blur(.5px);
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+}
+.nav-item a[href] {
+color: var(--nicegrey);
+font-weight: 555;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration-color: transparent;
