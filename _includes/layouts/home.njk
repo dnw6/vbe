@@ -2,7 +2,12 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
-<div class="two-up">
+<div class="center-col">
+
+    <div class="content">
+    {{ content | safe }}
+    </div>
+
     <div class="announcement">
        <h3>Why Vague But Exciting?</h3>
 
@@ -10,8 +15,6 @@ templateClass: tmpl-home
 
 <p>You can read more about it on <a href="//info.cern.ch/Proposal.html">the CERN website</a>.</p>
     </div>
-    <div class="content">
-    {{ content | safe }}
-    </div>
+
 </div>
 
