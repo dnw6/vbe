@@ -21,15 +21,17 @@ eleventyNavigation:
 
 *Hence this site.* Starting off with a really basic theme, plan is to slowly make it look... less basic. No rush though, is there?
 
-**2021 update**
+#### 2021 update
 * <span class="text_small">Still haven't bought new glasses.</span>
 
-**2022 update**
+#### 2022 update
 * <span class="text_small">Bought new glasses. But the dog chewed them up the other day. So now I need to buy another pair.</span>
 * <span class="text_small">As of August 2022 I have completed 26 of the 27 runs in a Couch to 5k running program, and successfully run over 5k a couple of times.</span>
 
-<ul>
-{%- for post in collections.music -%}
-  <li><a href="{{ post.url }}">{{ post.url }}</a></li>
-{%- endfor -%}
-</ul>
+#### 2023 update
+
+* <span class="text_small">Am still wearing the glasses that the dog chewed, but I "fixed" them with some [Sugru](https://sugru.com/).</span>
+* <span class="text_small">As of September 2022, I have gone out for a run precisely once 🙄. Need to get back into that.</span>
+* <span class="text_small">I added a [Music page](/music/) to this site, with some mixes I've uploaded to Mixcloud.</span>
+
+
