@@ -15,7 +15,7 @@ I threw together 7 of my favourite groovy house tracks.
 
 ### Tracklisting
 
-1. Craxy Penis - There's a Better Place (Original Mix)
+1. Crazy Penis - There's a Better Place (Original Mix)
 2. Session Victim - Matching Half (Original Mix)
 3. Phil Fuldner - Take me (Extended Mix)
 4. The Streets - Weak Become Heroes (Ashley Beedle's Love Bug Vocal)
