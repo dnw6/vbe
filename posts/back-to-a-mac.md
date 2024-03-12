@@ -56,6 +56,6 @@ A quick shout-out to [Kitty Giraudel](https://kittygiraudel.com/) for the [Eleve
 >`scroll-behavior: smooth;`
 >`scroll-padding-top: 120px;`
 
-to my css, just to make jumping back and forth feel a little nicer..
+to my css, just to make jumping back and forth feel a little nicer.
 
 <hr>
