@@ -24,6 +24,8 @@ body {
   line-height: 1.6;
   font-weight: 333;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 p {
   margin-bottom: 1.15rem;
@@ -47,8 +49,8 @@ img.article {
   justify-content: center;
 }
 li {
-  margin-bottom: .4rem;
-  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  /*font-size: 0.9rem;*/
 }
 li li {
   margin-bottom: .4rem;
@@ -141,6 +143,10 @@ pre {
   padding: 0.125em 1em;
   text-decoration: none; /* override del, ins, mark defaults */
   color: inherit; /* override del, ins, mark defaults */
+}
+
+hr {
+  margin: 2rem;
 }
 
 /* allow highlighting empty lines */
@@ -375,8 +381,21 @@ a[href].direct-link:focus:visited,
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
+}
+
+
+.Footnotes__ref:after {
+content: "⇣";
+position: relative;
+display: inline-block;
+margin: 0 3px;
+font-size: 0.8rem;
+opacity: 0.9;
+
+
+
 }
 
 a.rss {
@@ -421,4 +440,10 @@ ul.music-list li:hover::before {
   display: inline-block;
   width: 23px;
 
+}
+
+.mono {
+  font-family: monospace;
+  font-size: 0.8rem;
+  opacity: 0.9;
 }
