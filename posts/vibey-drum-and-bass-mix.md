@@ -21,8 +21,8 @@ I was quite pleased with this vibey drum & bass mix. It runs to just under an ho
 4. Furney - Much of a Deepness
 5. Utah Jazz - Mile High Club (Instrumental)
 6. Electrosoul System - Love Is Illusion
-7. Mark Rae - Free Rolling (MArcus Intalex Remix)
-8. Skelpel - Why Not Jungle
+7. Mark Rae - Free Rolling (Marcus Intalex Remix)
+8. Skalpel - Why Not Jungle
 9. Nu:Logic - Nova
 10. Makoto - YGMYC
 11. Gardna - Good Time Not a Long Time (Watch The Ride Remix)
