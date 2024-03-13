@@ -59,12 +59,12 @@ a[href] {
   color: var(--darkteal);
   transition: all 150ms ease;
   text-decoration: underline;
-  text-decoration-style: dotted;
+  /* text-decoration-style: dotted; */
   text-decoration-color: var(--gray);
 }
 a[href]:hover {
   color: var(--darkergray);
-  text-decoration-style: dotted;
+  /* text-decoration-style: dotted; */
   text-decoration-color: var(--nicegray);
 }
 h1 a[href] {
