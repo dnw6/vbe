@@ -7,6 +7,7 @@
   --white: #fff;
   --lightblue: #98acc6;
   --custard: #FBD786;
+  --lightcustard: #f7eacd;
   --duskyblue: #565666;
   --darkteal: #1E616E;
 }
@@ -271,10 +272,11 @@ a[href].tag {
   display: inline-block;
   vertical-align: text-top;
   text-transform: uppercase;
-  font-size: 0.625em; /* 10px /16 */
+  font-size: 0.5625em; /* 10px /16 */
   padding: 1px 3px;
   margin-left: 0.8em; /* 8px /10 */
-  background-color: var(--gray);
+  background-color: var(--lightcustard);
+  box-shadow: 0px 0px 3px #ccc;;
   color: var(--darkgray);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
