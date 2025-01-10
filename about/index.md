@@ -37,5 +37,5 @@ eleventyNavigation:
 #### 2024 update
 
 * <span class="text_small">Am still wearing the patched up glasses.</span>
-* <span class="text_small">Went for two rins in 2024. Not good enough.</span>
+* <span class="text_small">Went for two runs in 2024. Not good enough.</span>
 * <span class="text_small">I need to record and upload some more mixes.</span>
