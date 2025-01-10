@@ -10,7 +10,7 @@ eleventyNavigation:
 * I am a designer/front end developer
 * I work at [Angel Solutions](http://www.angelsolutions.co.uk)
 * In the past I worked at the [Ministry of Justice](https://mojdigital.blog.gov.uk/), and [The National Archives](https://nationalarchives.gov.uk)
-* [This is my twitter account](https://twitter.com/hiccup)
+* ~~[This is my twitter account](https://twitter.com/hiccup)~~ [This is my Bluesky account](https://bsky.app/profile/kingofthevagabonds.bsky.social)
 - - - 
 
 ### I made three New Year's Resolutions in 2020
@@ -34,4 +34,8 @@ eleventyNavigation:
 * <span class="text_small">As of September 2022, I have gone out for a run precisely once 🙄. Need to get back into that.</span>
 * <span class="text_small">I added a [Music page](/music/) to this site, with some mixes I've uploaded to Mixcloud.</span>
 
+#### 2024 update
 
+* <span class="text_small">Am still wearing the patched up glasses.</span>
+* <span class="text_small">Went for two rins in 2024. Not good enough.</span>
+* <span class="text_small">I need to record and upload some more mixes.</span>
