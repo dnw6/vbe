@@ -276,20 +276,21 @@ a[href].tag {
   padding: 1px 3px;
   margin-left: 0.8em; /* 8px /10 */
   background-color: var(--lightcustard);
-  box-shadow: 0px 0px 3px #ccc;;
-  color: var(--darkgray);
+  box-shadow: 0px 0px 2px 0px var(--lightblue);
+  color: var(--duskyblue);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   transition: all 150ms ease;
 }
 a[href].tag,
 a[href].tag:visited {
-  color: var(--darkgray);
+  color: var(--duskyblue);
   text-decoration: none;
 }
 
 a[href].tag:hover {
   background-color: var(--custard);
+  color: var(--darkgray);
 }
 
 /* Warning */
