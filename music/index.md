@@ -10,7 +10,8 @@ eleventyNavigation:
 ## Mixes
 
 <ul class="music-list">
-{%- for post in collections.music -%}
+{% assign reversed_music = collections.music | reverse %}
+{%- for post in reversed_music -%}
   <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {%- endfor -%}
 </ul>
