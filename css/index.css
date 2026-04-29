@@ -425,6 +425,7 @@ a.rss {
   transition: all 300ms ease-in-out;
   color: var(--dustyblue);
   text-decoration: none;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 /* Wave divider hover animation */
@@ -462,6 +463,7 @@ header.container:hover ~ .wave-divider path:nth-child(3) {
 a.rss:hover {
   border-radius: 18px 18px 2px 18px;
   color: var(--darkgray);
+  background: rgba(255, 255, 255, 1);
 }
 
 ul.music-list {
