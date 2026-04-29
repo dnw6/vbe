@@ -427,6 +427,38 @@ a.rss {
   text-decoration: none;
 }
 
+/* Wave divider hover animation */
+.wave-divider path {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes waveRock1 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-30px); }
+}
+@keyframes waveRock2 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(25px); }
+}
+@keyframes waveRock3 {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-18px); }
+}
+
+.wave-divider:hover path:nth-child(1),
+header.container:hover ~ .wave-divider path:nth-child(1) {
+  animation: waveRock1 5s ease-in-out infinite;
+}
+.wave-divider:hover path:nth-child(2),
+header.container:hover ~ .wave-divider path:nth-child(2) {
+  animation: waveRock2 4s ease-in-out infinite 0.4s;
+}
+.wave-divider:hover path:nth-child(3),
+header.container:hover ~ .wave-divider path:nth-child(3) {
+  animation: waveRock3 6s ease-in-out infinite 0.8s;
+}
+
 a.rss:hover {
   border-radius: 18px 18px 2px 18px;
   color: var(--darkgray);
