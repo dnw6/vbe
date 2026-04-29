@@ -1,6 +1,6 @@
 ---
 title: Afro House Mix
-description: Nearly an hour of latin an dafro house
+description: Nearly an hour of latin and afro house
 date: 2025-05-28
 permalink: /music/afro-house-mix/
 tags:
